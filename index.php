@@ -16,7 +16,7 @@
     // echo "hello";
     // echo 'hello';
 
-    echo "hello $name";
-    echo 'hello $name';
+    // echo "hello $name";
+    // echo 'hello $name';
 
 ?>
