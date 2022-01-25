@@ -40,8 +40,42 @@
     ];
 
     // echo $users["name"];
-    foreach($users as $key => $value){
-        echo $key.":".$value;
-        echo "<br>";
-    }
+    // foreach($users as $key => $value){
+    //     echo $key.":".$value;
+    //     echo "<br>";
+    // }
+
+    // is_array()
+    // var_dump(is_array($c));
+
+    // in_array()
+    // var_dump(in_array("c",$c));判斷是值否在陣列內
+
+    // echo count($neflix);//計算有幾個值
+
+    // compect()將變數解析成關聯陣列
+    $books = "精通ＰＨＰ　ＭＹＳＱＬ";
+    $cartoon = "天族屬車車";
+    $test = compact("books","cartoon");
+    // var_dump($test);
+
+    // extract()將關聯陣列轉為變數
+    // var_dump(extract($users));
+    // echo $name;
+    // echo $mail;
+    // echo $phone;
+
+    // $name = $users["name"];
+    // $name = $users["mail"];
+    // $name = $users["phone"];
+    // echo $name;
+
+
+    // implode()陣列轉字串
+    $neflix_string = implode("___",$neflix);
+    // echo $neflix_string;
+    // explode()字串轉陣列
+    $str = "hello world";
+    $str_array = explode(" ",$str);
+    var_dump($str_array);
 ?>
