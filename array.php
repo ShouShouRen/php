@@ -18,6 +18,8 @@
 
     $neflix = ["紅色通緝令","他們用祭典與漫畫活絡地方","驚悚恐怖：活屍、怪物到處跑","人性刻畫：獲得啟發或療癒","別錯過喜愛的明星"];
 
+    // 陣列迭代
+
     // for($i=0;$i<5;$i++){
     //     echo $neflix[$i];
     // }
@@ -26,7 +28,20 @@
     //     echo $neflix[$i];
     // }
 
-    foreach($neflix as $n){
-        echo $n;
+    // foreach($neflix as $n){
+    //     echo $n;
+    // }
+
+    // 關聯陣列 健key => 值value
+    $users = [
+        "name" => "john",
+        "mail" => "asdf@gmial.com",
+        "phone" => "234556476"
+    ];
+
+    // echo $users["name"];
+    foreach($users as $key => $value){
+        echo $key.":".$value;
+        echo "<br>";
     }
 ?>
