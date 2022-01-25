@@ -21,7 +21,12 @@
     // for($i=0;$i<5;$i++){
     //     echo $neflix[$i];
     // }
-    for($i=0;$i<count($neflix);$i++){
-        echo $neflix[$i];
+
+    // for($i=0;$i<count($neflix);$i++){
+    //     echo $neflix[$i];
+    // }
+
+    foreach($neflix as $n){
+        echo $n;
     }
 ?>
