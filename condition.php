@@ -33,4 +33,16 @@
         default:
             echo "error";
     }
+
+    switch(true){
+        case $x > 0:
+            echo "正";
+            break;
+        case $x < 1:
+            echo "負";
+    }
+
+    // 三元運算子
+
+    echo $x > 0 ? "success" : "error";
 ?>
