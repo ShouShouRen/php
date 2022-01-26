@@ -25,6 +25,12 @@
             </select>
         </div>
         <div>
+            <input type="checkbox" name="insterest[]" value="吃">
+            <input type="checkbox" name="insterest[]" value="喝">
+            <input type="checkbox" name="insterest[]" value="玩">
+            <input type="checkbox" name="insterest[]" value="樂">
+        </div>
+        <div>
             <textarea name="content" id="" cols="30" rows="10"></textarea>
         </div>
         <input type="submit" value="送出">
